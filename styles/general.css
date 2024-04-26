@@ -1,0 +1,28 @@
+*{
+    font-family: "Noto Sans JP", sans-serif;
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+    color:rgb(48, 43, 36);
+    line-height: 1.5;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+
+
+
+/* !含稅字體 */
+.includingTax{
+    font-size: 12px;
+    color: #CB4042;
+   
+}

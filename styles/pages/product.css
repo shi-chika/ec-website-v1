@@ -1,0 +1,263 @@
+
+
+
+/* !折扣 */
+.product-discount{
+    color: white;
+    background-color: #6B240C;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right:20px;
+    padding:4px 12px;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.sell-num{
+    font-size: 16px;
+    font-weight: 500;
+    color:gray;
+}
+
+
+
+.origin-price{
+    font-size: 20px;
+    font-weight: 500;
+    color:gray;
+    text-decoration:line-through;
+    margin-right:20px;
+}
+
+
+
+.buy-num-row{
+    display: flex;
+    align-items: center;
+    margin-top:40px;
+}
+
+.num-p{
+    font-size: 18px;
+    color: gray;
+    margin-right:40px;
+}
+
+.buy-num{
+    font-size: 18px;
+    width:100px;
+}
+
+.add-to-cart{
+    display: inline-block;
+    width: fit-content;
+   
+    margin-top:50px;
+    font-size: 18px;
+    padding: 15px 44px;
+    background-color: #e28b40;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover{
+    background-color: #dda06b;
+}
+
+.add-to-cart:active{
+    background-color:#F6B17A;
+    /* background-color: #E8C872; */
+}
+
+/* !成功加入購物車 */
+.add-success{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: fit-content;
+
+    padding: 10px 16px;
+    border-radius: 18px;
+    border: #fbd36d 1px dotted;
+    background-color: #fbf3c5;
+    transition: opacity 1.5s ease;
+    opacity: 0;
+    
+}
+.check-icon{
+    
+    color: #CB4042;
+    color: #518230;
+}
+
+.add-success-p{
+    color: #747264;
+    font-size: 14px;
+    margin-left: 12px;
+   
+}
+/* .hidden-element {
+    opacity: 0;
+    transition: opacity 2s ease;
+} */
+  
+.visible-element {
+    opacity: 1;
+    
+}
+/* !商品樣式 */
+
+.js-product-info{
+    background-color: #F1E4C3;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+.product-image{
+    width:40%;
+    border-radius: 16px;
+    margin-right:30px;
+}
+/*<img class="check-icon" > */
+.product-block{
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    padding:60px 40px ;
+    align-items: center;
+    
+}
+
+.product-information{
+    flex:1;
+    margin:12px;
+}
+.product-name{
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 12px;
+}
+
+.product-rating{
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+}
+.sell-information{
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+}
+
+.product-price{
+    margin-top:40px;
+    display: flex;
+    align-items: center;
+    background-color: #F3EEEA;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+/* !折扣價 */
+.discount-price{
+    font-size: 32px;
+    font-weight: 500;
+    color:#CB4042;
+    font-family: "M PLUS 1p", sans-serif;
+    
+}
+.rating-count{
+    color: gray;
+    margin-right:10px;
+}
+
+.rating-stars{
+    margin-right: 20px;
+    height: 20px;
+    margin-right: 30px;
+}
+
+.comment-num{
+    color: gray;
+}
+
+.description-block{
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 15px;
+    
+    padding: 16px 40px 30px;
+}
+
+.description-p{
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #F3EEEA;
+    border-radius: 8px;
+    text-align: center;
+    color: #7d6d59;
+    color: #706233;
+    
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.product-description{
+    padding: 0 20px;
+    line-height: 40px;
+    
+    width: fit-content;
+    margin: 30px auto 0;
+
+}
+
+
+/* @media (max-width:992px){
+    
+} */
+
+
+@media (max-width:767px){
+    .product-block{
+        flex-direction: column;
+        padding: 40px 20px;
+        padding-bottom: 8px;
+    }
+    .product-image{
+        width:80%;
+        margin-right:0px;
+        margin-bottom: 24px;
+    }
+    .product-name{
+        font-size: 20px;
+    }
+    .product-price{
+        padding:15px 10px;
+    }
+    .rating-count, .comment-num, .sell-num, .num-p, .origin-price{
+        font-size: 14px;
+    }
+    .origin-price{
+        margin-right: 6px;
+    }
+    .discount-price{
+        font-size: 24px;
+    }
+    .product-information{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rating-stars{
+        margin-right: 8px;
+    }
+    .product-rating, .sell-information, .product-price,.buy-num-row{
+        margin-top: 18px;
+    }
+    .num-p{
+        margin-right: 16px;
+    }
+    .product-description{
+        line-height: 28px;
+        font-size: 14px;
+    }
+}

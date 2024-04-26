@@ -1,0 +1,140 @@
+.header{
+    position: fixed;
+    background-color:rgba(124,116,95,0.6);
+    top:0px;
+    right:0px;
+    left:0px;
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+} 
+/* !container */
+.header-container{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    padding: 0 32px;
+    justify-content: space-between;
+    width:100%;
+    max-width: 1200px;
+}
+
+.header-left{
+    
+    margin-right:60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-left a:hover{
+    opacity: 0.8;
+}
+
+.header-right{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    flex-shrink: 0;
+}
+
+.search{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    max-width: 350px;
+}
+
+.search-button{
+    width:64px;
+    height: 39px;
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+/* !輸入框 */
+.search-input{
+    flex:1;
+    height: 39px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    padding-left: 24px;
+    font-size: 16px;
+    width:100px;
+    outline: none;
+    background-color: rgba(209,187,133,0.9);
+    background-color: rgba(239,230,211,0.9);
+}
+.search-input::placeholder{
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    text-indent: 22px;
+    line-height: 40px;
+    color: #625a55;
+}
+
+.search-icon{
+    height: 26px;
+    transform: translateY(3px);
+}
+
+/* !標題 */
+
+.header-title p{
+    font-family: "Platypi", serif;
+    /* font-family: "Odibee Sans", sans-serif; */
+    color: #fff;
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: 0.3rem;
+}
+.header-title span{
+    color: #edd29b;
+    font-size: 30px;
+}
+.header-title :last-child{
+    text-indent: 16px;
+}
+.cart-icon{
+    height: 30px;
+    cursor: pointer;
+}
+
+@media (max-width:600px){
+    .search{
+        display: none;
+    }
+}
+
+
+.cart{
+    position: relative;
+    margin-top:5px;
+    margin-right:10px;
+    margin-left:50px;
+}
+
+.cart-num{
+    position: absolute;
+    color: #ffffff;
+    font-weight: 900;
+    padding: 5px 8px;
+    
+    border-radius: 50%;
+    text-align: center;
+    top:-5px;
+    right: 0px;
+    font-size: 14px;
+    background-color: #dbb14f;
+    cursor: pointer;
+    font-family: "M PLUS 1p", sans-serif;
+}
