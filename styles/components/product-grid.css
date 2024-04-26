@@ -1,4 +1,114 @@
+/* !新增首頁 */
+.home-banner{
+    height: 100vh;
+    background-image: url(images/pexels-photo-10.jpeg);
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 30px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.home-banner-box{
+    /* background-color:rgba(255,255,255,0.2); */
+    padding: 24px;
+    text-align: center;
+    /* transform: translateX(-20%); */
+}
+.home-banner-box :first-child{
+    font-size: 64px;
+    color: #eacda2;
+    font-family: "Platypi", serif;
+    margin-bottom: 40px;
+}
+.home-banner-box :last-child{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #2d2a2a;
+}
 
+/* ! home セール開催中  */
+.sale-msg p{
+    text-align: center;
+    background-color: #f6d17c;
+    color: #332c29;
+    
+    padding: 12px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    
+}
+.sale-msg span{
+    display: inline-block;
+    padding-left: 16px;
+    color: #f17414;
+}
+
+
+
+/* ! top按鈕 */
+.homeTopBtn{
+    position: fixed;
+    bottom: 8%;
+    right: 4%;
+    z-index: 5;
+    display: none;
+    
+}
+.homeTopBtn a{
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    background-color:#a6927b;
+}
+.homeTopBtn a:hover{
+    background-color: #bfaa93;
+    
+}
+.homeTopBtn i{
+    font-size: 28px;
+    vertical-align: middle;
+    padding: 10px 16px;  
+    color: #fff;  
+}
+/* ! 搜尋 page */
+.search-msg p{
+    text-align: center;
+    background-color: #fff;
+    color: #332c29;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    
+}
+.search-msg .search-resule{
+    display: inline-block;
+    color: #E25E3E;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.search-msg .user-input{
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.mt-70{
+    margin-top: 70px;
+}
+.search-body{
+    min-height: 100vh;
+    /* background-color: #f4f1e7; */
+    /* background-color: #EADBC8; */
+    background-color: #F5EEE6;
+}
+
+/* ! */
 
 .product-image{
     width: 100%;
@@ -143,115 +253,6 @@
     font-family: "M PLUS 1p", sans-serif;
 }
 
-/* !新增首頁 */
-.home-banner{
-    height: 100vh;
-    background-image: url(/images/pexels-photo-10.jpeg);
-    background-position: center ;
-    background-size: cover ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin-top: 30px;
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-}
-.home-banner-box{
-    /* background-color:rgba(255,255,255,0.2); */
-    padding: 24px;
-    text-align: center;
-    /* transform: translateX(-20%); */
-}
-.home-banner-box :first-child{
-    font-size: 64px;
-    color: #eacda2;
-    font-family: "Platypi", serif;
-    margin-bottom: 40px;
-}
-.home-banner-box :last-child{
-    color: #ffffff;
-    font-size: 18px;
-    font-family: "Zen Kaku Gothic New", sans-serif;
-    line-height: 1.5;
-    text-shadow: 2px 2px 4px #2d2a2a;
-}
-
-/* ! home セール開催中  */
-.sale-msg p{
-    text-align: center;
-    background-color: #f6d17c;
-    color: #332c29;
-    
-    padding: 12px;
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 500;
-    
-}
-.sale-msg span{
-    display: inline-block;
-    padding-left: 16px;
-    color: #f17414;
-}
-
-
-
-/* ! top按鈕 */
-.homeTopBtn{
-    position: fixed;
-    bottom: 8%;
-    right: 4%;
-    z-index: 5;
-    display: none;
-    
-}
-.homeTopBtn a{
-    display: inline-block;
-    border-radius: 50%;
-    border: 2px solid #ffffff;
-    background-color:#a6927b;
-}
-.homeTopBtn a:hover{
-    background-color: #bfaa93;
-    
-}
-.homeTopBtn i{
-    font-size: 28px;
-    vertical-align: middle;
-    padding: 10px 16px;  
-    color: #fff;  
-}
-/* ! 搜尋 page */
-.search-msg p{
-    text-align: center;
-    background-color: #fff;
-    color: #332c29;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 400;
-    
-}
-.search-msg .search-resule{
-    display: inline-block;
-    color: #E25E3E;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-.search-msg .user-input{
-    display: inline-block;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-.mt-70{
-    margin-top: 70px;
-}
-.search-body{
-    min-height: 100vh;
-    /* background-color: #f4f1e7; */
-    /* background-color: #EADBC8; */
-    background-color: #F5EEE6;
-}
 
 
 @media (max-width:992px){
