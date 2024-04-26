@@ -1,7 +1,7 @@
 /* !新增首頁 */
 .home-banner{
     height: 100vh;
-    background-image: url(images/pexels-photo-10.jpeg);
+    background-image: url(../../images/pexels-photo-10.jpeg);
     background-position: center ;
     background-size: cover ;
     background-repeat: no-repeat;
