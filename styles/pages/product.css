@@ -1,4 +1,9 @@
-
+.product-information{
+    flex:1;
+    margin:12px;
+    font-family: "Noto Sans JP", sans-serif;
+    color: #333;
+}
 .add-to-cart{
     display: inline-block;
     width: fit-content;
@@ -81,15 +86,12 @@
     
 }
 
-.product-information{
-    flex:1;
-    margin:12px;
-    font-family: "Noto Sans JP", sans-serif;
-}
+
 .product-name{
     font-size: 26px;
     font-weight: 900;
     margin-top: 12px;
+    color: #554d3c;
 }
 
 .product-rating{
