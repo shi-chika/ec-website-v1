@@ -89,7 +89,7 @@
 
 .product-name{
     font-size: 26px;
-    font-weight: 900;
+    font-weight: 600;
     margin-top: 12px;
     color: #554d3c;
 }
@@ -219,8 +219,9 @@
 @media (max-width:767px){
     .product-block{
         flex-direction: column;
-        padding: 40px 20px;
+        padding: 40px 10px;
         padding-bottom: 8px;
+       
     }
     .product-image{
         width:90%;
