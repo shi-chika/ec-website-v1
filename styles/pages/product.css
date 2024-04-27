@@ -1,52 +1,4 @@
 
-
-
-/* !折扣 */
-.product-discount{
-    color: white;
-    background-color: #6B240C;
-    font-size: 14px;
-    border-radius: 4px;
-    margin-right:20px;
-    padding:4px 12px;
-    font-family: "M PLUS 1p", sans-serif;
-}
-
-.sell-num{
-    font-size: 16px;
-    font-weight: 500;
-    color:gray;
-}
-
-
-
-.origin-price{
-    font-size: 20px;
-    font-weight: 500;
-    color:gray;
-    text-decoration:line-through;
-    margin-right:20px;
-}
-
-
-
-.buy-num-row{
-    display: flex;
-    align-items: center;
-    margin-top:40px;
-}
-
-.num-p{
-    font-size: 18px;
-    color: gray;
-    margin-right:40px;
-}
-
-.buy-num{
-    font-size: 18px;
-    width:100px;
-}
-
 .add-to-cart{
     display: inline-block;
     width: fit-content;
@@ -132,6 +84,7 @@
 .product-information{
     flex:1;
     margin:12px;
+    font-family: "Noto Sans JP", sans-serif;
 }
 .product-name{
     font-size: 26px;
@@ -157,6 +110,51 @@
     background-color: #F3EEEA;
     padding: 15px 20px;
     border-radius: 10px;
+}
+/* !折扣 */
+.product-discount{
+    color: white;
+    background-color: #6B240C;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right:20px;
+    padding:4px 12px;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.sell-num{
+    font-size: 16px;
+    font-weight: 500;
+    color:gray;
+}
+
+
+
+.origin-price{
+    font-size: 20px;
+    font-weight: 500;
+    color:gray;
+    text-decoration:line-through;
+    margin-right:20px;
+}
+
+
+
+.buy-num-row{
+    display: flex;
+    align-items: center;
+    margin-top:40px;
+}
+
+.num-p{
+    font-size: 18px;
+    color: gray;
+    margin-right:40px;
+}
+
+.buy-num{
+    font-size: 18px;
+    width:100px;
 }
 /* !折扣價 */
 .discount-price{
@@ -223,7 +221,7 @@
         padding-bottom: 8px;
     }
     .product-image{
-        width:80%;
+        width:90%;
         margin-right:0px;
         margin-bottom: 24px;
     }

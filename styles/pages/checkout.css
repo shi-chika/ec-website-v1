@@ -253,7 +253,10 @@
     }
 }
 @media (max-width:767px){
-    .product-name,.product-price, .delivery-option-p,.delivery-option-name{
+    .product-name{
+        font-size: 16px;
+    }
+    .product-price, .delivery-option-p,.delivery-option-name{
         font-size: 14px;
     }
     .discount-price{
@@ -271,7 +274,7 @@
         align-items: center;
     }
     .product-image{
-        width: 70%;
+        width: 94%;
         margin-bottom: 24px;
         margin-right:0;
     }
