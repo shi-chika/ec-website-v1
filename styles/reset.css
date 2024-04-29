@@ -47,7 +47,7 @@ a{
 input,
 button,
 select {
-  -webkit-animation: none;
-  -moz-animation: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
 }
