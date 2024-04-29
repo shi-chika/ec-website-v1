@@ -44,3 +44,10 @@ table {
 a{
 	text-decoration: none;
 }
+input,
+button,
+select {
+  -webkit-animation: none;
+  -moz-animation: none;
+  appearance: none;
+}
