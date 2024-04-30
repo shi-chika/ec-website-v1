@@ -14,8 +14,8 @@ products.forEach((product)=>{
      pdpHtml = `
      <div class="container">
             <div class="product-block">
-        
-                 <img class="product-image" src="${productInfo.img}" />
+                <div class="product-image"><img src="${productInfo.img}" /></div>
+                
                  <div class="product-information">
                      <h1 class="product-name">${productInfo.name}</h1>
                      <div class="product-rating">

@@ -5,6 +5,7 @@
     text-decoration: none;
     color:rgb(48, 43, 36);
     line-height: 1.5;
+    box-sizing: border-box;
 }
 html {
     scroll-behavior: smooth;

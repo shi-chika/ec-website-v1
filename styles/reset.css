@@ -44,8 +44,7 @@ table {
 a{
 	text-decoration: none;
 }
-input,
-button,
+
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
