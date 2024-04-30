@@ -157,6 +157,7 @@
 .buy-num{
     font-size: 18px;
     width:100px;
+    text-align: center;
 }
 /* !折扣價 */
 .discount-price{
@@ -260,5 +261,9 @@
     .product-description{
         line-height: 28px;
         font-size: 14px;
+    }
+    .buy-num{
+        padding: 0px 10px;
+        text-align: center;
     }
 }
