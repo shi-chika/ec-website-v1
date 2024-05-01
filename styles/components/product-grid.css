@@ -231,14 +231,21 @@
     column-gap: 28px;
     padding-bottom: 100px;
     padding-top: 100px;
-    
 }
-
 .product-image-row{
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
+
+.product-price-row{
+    /* height: 55px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
 
 .product-discount{
     color: white;
@@ -254,22 +261,20 @@
 }
 /* !加入購物車 */
 .add-to-cart{
-    height: 20px;
+    width: 30%;
     background-color:#eac162;
     padding:6px 18px;
     border-radius: 5px;
     cursor: pointer;
-    
+}
+.add-to-cart img{
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
 }
 
 
-.product-price-row{
-    /* height: 55px; */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: "M PLUS 1p", sans-serif;
-}
+
 
 
 
@@ -291,7 +296,9 @@
     }
     .product-name{
         font-size: 14px;
-        
+    }
+    .add-to-cart{
+        width: 74px;
     }
     .add-success{
         padding: 4px;
@@ -314,6 +321,7 @@
     .home-banner-box :last-child{
         font-size: 16px;
     }
+    
 
 }
 
