@@ -37,7 +37,7 @@ export function renderHeader(){
 
     document.querySelector(".search-button").addEventListener("click", ()=>{
         const searchText = document.querySelector(".search-input").value;
-        location.href = `/search.html?search=${searchText}`;
+        location.href = `search.html?search=${searchText}`;
     })
 };
 

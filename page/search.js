@@ -36,7 +36,7 @@ getSearchProduct.forEach((item)=>{
                                 ${item.originPrice ? "¥" + item.originPrice : ""} </p>
                             </div>
                             
-                            <div data-product-id=${item.id} class="add-to-cart"> <img  src="images/icons/cart.png"></div>
+                            <div data-product-id=${item.id} class="add-to-cart"> <img src="images/icons/cart.png"></div>
                         </div>
                     </div>
                 </div>
