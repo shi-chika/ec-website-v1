@@ -148,10 +148,18 @@
 @media (max-width:767px){
     .pc-header{
         display: none;
+        
     }
     .phone-header{
-        padding-top: 8px;
+        padding-top: 4px;
         display: block;
+        
+    }
+    .header-title p{
+        font-size: 26px;
+    }
+    .header-title span{
+        font-size: 34px;
     }
     .header-container{
         flex-direction: column;

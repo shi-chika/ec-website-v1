@@ -67,13 +67,14 @@
 
 .js-product-info{
     background-color: #F1E4C3;
-    padding-top: 100px;
+    padding-top: 130px;
     padding-bottom: 50px;
     min-height: 100vh;
 }
 .product-image{
     width:40%;
     margin-right:30px;
+   
 }
 .product-image img{
     width: 100%;
@@ -222,6 +223,9 @@
 
 
 @media (max-width:767px){
+    .js-product-info{
+        padding-top: 140px;
+    }
     .product-block{
         flex-direction: column;
         padding: 40px 6px;
