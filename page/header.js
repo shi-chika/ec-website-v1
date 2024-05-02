@@ -4,13 +4,17 @@ export function renderHeader(){
     const headerHtml = `
     <div class="header-container">
         <div class="header-left">
-            <a href="index.html">
-                <div class="header-title">
+            <a  href="index.html">
+                <div class="header-title pc-header">
                     <p><span>O</span>NLINE </p>
                     <p><span>S</span>HOP</p>
                 </div>
-                
+                <div class="header-title phone-header">
+                    <p><span>O</span>NLINE </p>
+                    <p><span>S</span>HOP</p>
+                </div>
             </a>
+            
         </div>
 
         <div class="header-right">

@@ -5,9 +5,6 @@
     right:0px;
     left:0px;
     z-index: 20;
-
-    display: flex;
-    justify-content: center;
 } 
 /* !container */
 .header-container{
@@ -18,11 +15,11 @@
     justify-content: space-between;
     width:100%;
     max-width: 1350px;
+   
+    margin: 0 auto;
 }
 
 .header-left{
-    
-    margin-right:60px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,7 +34,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: end;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
+   
 }
 
 .search{
@@ -57,6 +55,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+    
 }
 
 
@@ -88,6 +87,12 @@
 }
 
 /* !標題 */
+.phone-header{
+    display: none;
+}
+.phone-header p{
+    display: inline-block;
+}
 
 .header-title p{
     font-family: "Platypi", serif;
@@ -109,11 +114,6 @@
     cursor: pointer;
 }
 
-@media (max-width:600px){
-    .search{
-        display: none;
-    }
-}
 
 
 .cart{
@@ -127,14 +127,48 @@
     position: absolute;
     color: #ffffff;
     font-weight: 900;
-    padding: 5px 8px;
+    padding: 6px 10px;
     
     border-radius: 50%;
     text-align: center;
-    top:-5px;
-    right: 0px;
+    top:-8px;
+    right: -5px;
     font-size: 14px;
     background-color: #dbb14f;
     cursor: pointer;
     font-family: "M PLUS 1p", sans-serif;
+}
+
+/* @media (max-width:600px){
+    .search{
+        display: none;
+    }
+} */
+
+@media (max-width:767px){
+    .pc-header{
+        display: none;
+    }
+    .phone-header{
+        padding-top: 8px;
+        display: block;
+    }
+    .header-container{
+        flex-direction: column;
+        height: 100px;
+        padding: 0 16px;
+    }
+    .search-input{
+        padding-left: 16px;
+    }
+    .header-right{
+        flex-shrink: 1;
+        justify-content: center;
+    }
+    .cart{
+        
+        margin-right:0;
+        margin-left:8px;
+    }
+    
 }
