@@ -22,7 +22,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background-image: url(../../images/pexels-photo-10.jpeg);
+    background-image: url(../../images/home-banner-top.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 56px;
     column-gap: 28px;
-    padding-bottom: 100px;
+    padding-bottom: 140px;
     padding-top: 100px;
 }
 
@@ -252,8 +252,87 @@
     vertical-align: middle;
 }
 
+/* !new banner */
+.main-content{
+    display: flex;
+    height: 60vh;
+}
+
+.main-content-msg{
+    width: 45%;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    text-align: center;
+    padding: 30px;
+}
+.main-content-img{
+    width: 55%;
+}
+.main-content-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.group1 .main-content-msg{
+    background-color: #eacda2;
+}
+.group2 .main-content-msg{
+    border-right: 8px #eacda2 solid;
+}
 
 
+/* !footer */
+
+.favorite-banner{
+    height: 40vh;
+    width: 100%;
+    background-image: url(../../images/pexels-photo-7.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    transition: all .3s ease;
+}
+.favorite-banner:hover{
+    opacity: 1;
+}
+.favorite-banner p{
+    
+    font-size: 36px;
+   
+    font-family: "M PLUS 1 Code", monospace;
+    color: #fff;
+    padding: 36px;
+}
+
+
+
+.footer-banner{
+    padding: 8px;
+    background-color: #AF8260;
+}
+.footer-banner p{
+    text-align: center;
+    padding: 24px;
+    color: #ffffff;
+    font-family: "Platypi", serif;
+    font-family: "M PLUS 1 Code", monospace;
+    font-size: 26px;
+    border: 2px solid #fff;
+   
+}
+.footer-banner .copyright{
+    font-size: 14px;
+    color: #fff;
+}
 
 
 
@@ -270,8 +349,8 @@
     .product-grid{
         grid-template-columns: 1fr 1fr ;
         column-gap: 14px;
-        padding-bottom: 40px;
-        padding-top: 40px;
+        padding-bottom: 80px;
+        padding-top: 70px;
     }
     .product-discount{
         font-size: 14px;
@@ -303,8 +382,25 @@
     .home-banner-box :last-child{
         font-size: 16px;
     }
+    .main-content{
+       flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .main-content-img{
+        width: 99%;
+    }
+    .main-content-msg{
+        width: 99%;
+        padding: 30px 18px;
+    }
     
-
+    .group2 .main-content-msg{
+        border: 8px #eacda2 solid;
+    }
+    .group1 .main-content-msg{
+        border: 5px solid #fff;
+    }
 }
 
 
