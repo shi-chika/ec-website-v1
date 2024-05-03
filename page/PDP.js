@@ -89,3 +89,14 @@ function showSuccess(){
         successMsg.classList.remove("visible-element");
     },3000)
 }
+
+window.addEventListener('scroll', function() {
+    const homeTop = document.querySelector('.homeTopBtn');
+    if (window.scrollY > 100) {
+      homeTop.style.display = "block"
+     
+    } else {
+      homeTop.style.display = "none"
+     
+    }
+  });

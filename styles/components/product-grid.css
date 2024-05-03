@@ -69,32 +69,11 @@
 
 
 
-/* ! top按鈕 */
-.homeTopBtn{
-    position: fixed;
-    bottom: 8%;
-    right: 4%;
-    z-index: 5;
-    display: none;
-    
-}
-.homeTopBtn a{
-    display: inline-block;
-    border-radius: 50%;
-    border: 2px solid #ffffff;
-    background-color:#a6927b;
-}
-.homeTopBtn a:hover{
-    background-color: #bfaa93;
-    
-}
-.homeTopBtn i{
-    font-size: 28px;
-    vertical-align: middle;
-    padding: 10px 16px;  
-    color: #fff;  
-}
+
 /* ! 搜尋 page */
+.search-msg{
+    margin-top: 70px;
+}
 .search-msg p{
     text-align: center;
     background-color: #fff;
@@ -116,9 +95,7 @@
     padding-left: 8px;
     padding-right: 8px;
 }
-.mt-70{
-    margin-top: 70px;
-}
+
 .search-body{
     min-height: 100vh;
     /* background-color: #f4f1e7; */
@@ -160,10 +137,11 @@
     -webkit-box-orient: vertical;
     font-weight: 500;
     font-size: 16px;
-    height: 46px;
+    height: 56px;
     -webkit-line-clamp: 2;
     text-overflow: ellipsis;
     overflow: hidden;
+    line-height: 1.3;
     /* border: #CB4042 1px solid; */
 }
 
@@ -232,6 +210,7 @@
     padding-bottom: 100px;
     padding-top: 100px;
 }
+
 .product-image-row{
     position: relative;
     z-index: 1;
@@ -285,6 +264,9 @@
 }
 
 @media (max-width:767px){
+    .search-msg{
+        margin-top: 100px;
+    }
     .product-grid{
         grid-template-columns: 1fr 1fr ;
         column-gap: 14px;
