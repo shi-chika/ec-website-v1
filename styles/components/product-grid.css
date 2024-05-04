@@ -281,7 +281,8 @@
     background-color: #eacda2;
 }
 .group2 .main-content-msg{
-    border-right: 8px #eacda2 solid;
+    /* border-right: 5px #eacda2 solid; */
+    background-color: #f4f0e2;
 }
 
 
@@ -398,6 +399,7 @@
     
     .group2 .main-content-msg{
         border: 6px #eacda2 solid;
+        background-color: #fff;
     }
     
 }
