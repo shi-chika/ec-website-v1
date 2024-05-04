@@ -388,19 +388,18 @@
         height: auto;
     }
     .main-content-img{
-        width: 99%;
+        width: 100%;
     }
     .main-content-msg{
-        width: 99%;
+        width: 100%;
         padding: 30px 18px;
+        margin-bottom: 4px;
     }
     
     .group2 .main-content-msg{
-        border: 8px #eacda2 solid;
+        border: 6px #eacda2 solid;
     }
-    .group1 .main-content-msg{
-        border: 5px solid #fff;
-    }
+    
 }
 
 
