@@ -155,7 +155,7 @@
     
     border: #fbd36d 1px dotted;
     background-color: #fbf3c5;
-    transition: opacity 1s ease;
+    transition: opacity .5s ease;
     opacity: 0;
 }
 
@@ -245,6 +245,7 @@
     padding:6px 18px;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 .add-to-cart img{
     width: 100%;

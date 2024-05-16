@@ -81,6 +81,17 @@ cartBtns.forEach( (btn) => {
           cart.classList.remove('shake');
         }, 600); 
     })
+
+    btn.addEventListener("mouseover", (e) => {
+        e.preventDefault();
+        btn.style.opacity = "0.8"
+
+    })
+    btn.addEventListener("mouseout", (e) => {
+        e.preventDefault();
+        btn.style.opacity = "1"
+
+    })
 })
 
 

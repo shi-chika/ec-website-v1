@@ -92,6 +92,8 @@ addTocartBtn.addEventListener("click", () => {
 
 })
 
+
+
 function showSuccess(){
     const successMsg = document.querySelector('.add-success');
     successMsg.classList.add("visible-element");
