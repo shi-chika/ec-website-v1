@@ -82,6 +82,16 @@ addTocartBtn.addEventListener("click", () => {
 
 })
 
+addTocartBtn.addEventListener("click", () => {
+    const cart = document.querySelector('.cart');
+    cart.classList.add('shake');
+
+    setTimeout(() => {
+      cart.classList.remove('shake');
+    }, 600); 
+
+})
+
 function showSuccess(){
     const successMsg = document.querySelector('.add-success');
     successMsg.classList.add("visible-element");

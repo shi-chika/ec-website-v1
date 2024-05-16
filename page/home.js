@@ -70,6 +70,17 @@ cartBtns.forEach( (btn) => {
         // document.querySelector(".cart-num").textContent = getCartNum; 
         showSuccess(projectId);
     })
+
+    btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        const cart = document.querySelector('.cart');
+       
+        cart.classList.add('shake');
+  
+        setTimeout(() => {
+          cart.classList.remove('shake');
+        }, 600); 
+    })
 })
 
 
